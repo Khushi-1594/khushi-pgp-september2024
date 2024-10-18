@@ -1,0 +1,241 @@
+.navbar{
+    background-color:rgb(111, 106, 247);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+    width: 100vw;
+    margin: 0;
+}
+.navbar ul{
+    list-style-type: none; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li{
+    float: left;
+    display: inline;
+    padding: 8px;
+    color: white;
+    font-size: 16px;
+    margin-right: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar #sitename{
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 40px;
+    
+}
+
+.searchbar input{
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    background: url('https://img.icons8.com/material-outlined/24/000000/search.png') no-repeat 10px center;
+    background-size: 15px;
+    outline: none;
+    background-color: white;
+}
+
+.navbar .menu-icon{
+    color: white;
+    font-size: 30px;
+    margin-left: 600px;  
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 120px;
+    position: relative;
+    padding-right: 30px;
+    
+}
+
+.card1 img{
+   height: 350px;
+   width: 300px;
+   border-radius: 10px;
+   margin: 150px 5px 30px;
+}
+
+.card2{
+    background-color: rgb(229, 216, 255);
+    width: 650px;
+    height:340px;
+    border-radius: 10px;
+    margin: 150px 25px 30px;
+    padding: 10px 30px;
+    color: gray;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.social-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-end;
+    float: right;
+    margin-top: 150px;
+    position: sticky;
+    top: 140px;
+    right: 0;
+    z-index: 999;
+}
+
+.social-buttons img{
+    border: 2px solid black;
+    height: 45px;
+    width: 50px;
+    border-radius: 7px;
+}
+
+.flex-cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 0;
+}
+
+.flex-cards div{
+    height: 90px;
+    width: 190px;
+    padding: 2px 15px 9px; 
+    border-radius: 10px;
+}
+
+.flex-cards div p{
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#fcard1{
+    background-color:rgb(146, 157, 255);
+    margin-top: 40px;
+    margin-left: 240px;
+}
+
+#fcard2{
+    background-color:rgb(115, 76, 242);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#fcard3{
+    background-color:rgb(210, 136, 255);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#fcard4{
+    background-color: black;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.bottom-card{
+    background-color: rgb(72, 62, 255);
+    display: flex;
+    height: 400px;
+    width: 70%;
+    margin-top: 90px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.vertical-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+}
+
+.sidebar-btn{
+    background-color: rgb(72, 62, 255);
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    margin: 30px 10px;
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#info-button{
+    background-color: #87CEFA;
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding: 15px;
+    margin: 20px 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.horizontal-card{
+    background-color: white;
+    width: 70%;
+    height: 340px;
+    margin: 30px 20px;
+    border-radius: 10px;
+}
+
+.horizontal-card h3{
+    padding-top: 15px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.info .table-info td{
+    padding-left: 60px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.next{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 30px;
+    margin-right: 40px;
+    position: absolute;
+}
+
+.chat-icon img{
+    height: 80px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.chat-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
